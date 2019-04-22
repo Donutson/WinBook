@@ -1,0 +1,23 @@
+body{
+	padding-bottom: 30px;
+	background-image: url('../images/liste.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	padding-bottom: 50px;
+	font-weight: bold;
+	font-size: 70px;
+}
+table
+{
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+}
+th{
+	font-size: 25px;
+}
+td{
+	font-size: 22px;
+	color: rgb(0,255,255);
+}

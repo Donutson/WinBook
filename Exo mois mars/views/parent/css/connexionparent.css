@@ -1,0 +1,25 @@
+/*grand écran*/
+body{
+	margin-top: 30px;
+	background-image: url('../images/school.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	margin-bottom: 50px;
+}
+
+form{
+	padding: 30px;
+	background-color: rgba(119,156,163,0.6);
+}
+label{
+	font-size: 25px;
+}
+input[class*='form-control']{
+	border-radius: 15px;
+}
+input[type='submit']{
+	width:200px;
+	padding: 5px;
+}

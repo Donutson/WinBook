@@ -1,0 +1,45 @@
+/*grand écran*/
+body{
+	margin-top: 30px;
+	background-image: url('../images/board.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+h1{
+	margin-bottom: 50px;
+}
+
+form{
+	padding: 30px;
+	background-color: rgba(211,211,211,0.4);
+}
+.help-block,input{
+	color: black;
+}
+label{
+	font-size: 25px;
+}
+input[class*='form-control']{
+	border-radius: 15px;
+}
+input[type='file']{
+	margin-left: 20px;
+	display: inline-block;
+}
+input[type='submit']{
+	width:200px;
+	padding: 5px;
+}
+/*smartphone*/
+@media screen and (max-width:768px ){
+	label{
+		font-size: 10px;
+	}
+}
+/*desktop*/
+@media screen and (max-width:992px ) and (min-width: 767px){
+	label{
+		font-size: 17px;
+	}
+}
